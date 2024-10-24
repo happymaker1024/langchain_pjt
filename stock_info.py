@@ -22,7 +22,14 @@ class Stock:
                                                          'Stockholders Equity']].to_markdown()
         cash_flow = self.ticker.cash_flow.loc[['Operating Cash Flow', \
                                                 'Investing Cash Flow', 'Financing Cash Flow']].to_markdown()
-        return f"{income_stmt} \n\n  {balance_sheet} \n\n {cash_flow}"
+        return f"""
+            ### 손익계산서
+            {income_stmt} 
+            ### 대차대조표
+            {balance_sheet}
+            ### 현금 흐름
+            {cash_flow}
+            """
 
     # 주식 거래량
 
