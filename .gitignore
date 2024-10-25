@@ -163,4 +163,13 @@ cython_debug/
 
 # user add
 생각정리.txt
-.env_copy"
+.env_copy
+
+meilisearch-windows-amd64.exe
+nasdaq_screener_1729815695376.csv
+test.json
+test2.json
+AAPL_company_info_report.md
+__pycache__/
+data.ms/
+dumps/
